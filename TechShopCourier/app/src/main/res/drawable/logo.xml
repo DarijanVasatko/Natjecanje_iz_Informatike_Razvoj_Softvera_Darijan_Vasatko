@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="100dp"
+    android:viewportWidth="200"
+    android:viewportHeight="100">
+
+    <!-- Speed lines -->
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M10,25 h70 a5,5 0 0 1 0,10 h-70 a5,5 0 0 1 0,-10z"/>
+
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M10,45 h60 a5,5 0 0 1 0,10 h-60 a5,5 0 0 1 0,-10z"/>
+
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M10,65 h70 a5,5 0 0 1 0,10 h-70 a5,5 0 0 1 0,-10z"/>
+
+    <!-- Cargo box -->
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M85,20 h70 l-10,60 h-70 z"/>
+
+    <!-- Truck front -->
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M155,40 h20 l15,15 v25 h-35 z"/>
+
+    <!-- Wheels -->
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M95,80 a10,10 0 1,0 0.1,0"/>
+
+    <path
+        android:fillColor="#6366f1"
+        android:pathData="M160,80 a10,10 0 1,0 0.1,0"/>
+
+</vector>
