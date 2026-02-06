@@ -1,0 +1,94 @@
+============================================
+POPIS SLIKA ZA PC BUILDER
+============================================
+
+Skini slike s interneta (npr. Google Images, službene stranice proizvođača)
+i spremi ih u odgovarajuće mape s točnim imenima.
+
+Format: JPG, preporučena veličina: 400x400px ili slično (kvadratno)
+
+============================================
+CPU (9 slika) -> mapa: cpu/
+============================================
+intel-core-i3-12100f.jpg
+intel-core-i5-12400f.jpg
+intel-core-i5-13600k.jpg
+intel-core-i7-13700k.jpg
+amd-ryzen-5-5600.jpg
+amd-ryzen-5-5600x.jpg
+amd-ryzen-7-5800x.jpg
+amd-ryzen-5-7600.jpg
+amd-ryzen-7-7700x.jpg
+
+============================================
+MOTHERBOARD (8 slika) -> mapa: motherboard/
+============================================
+gigabyte-b660m-ds3h.jpg
+msi-pro-b660m-a.jpg
+asus-tuf-gaming-b760-plus.jpg
+gigabyte-b550m-ds3h.jpg
+msi-b550-a-pro.jpg
+asus-rog-strix-b550-f.jpg
+gigabyte-b650m-ds3h.jpg
+msi-pro-b650-p-wifi.jpg
+
+============================================
+RAM (6 slika) -> mapa: ram/
+============================================
+kingston-fury-beast-16gb-2x8gb-ddr4-3200.jpg
+corsair-vengeance-lpx-16gb-2x8gb-ddr4-3600.jpg
+g.skill-ripjaws-v-32gb-2x16gb-ddr4-3200.jpg
+kingston-fury-beast-16gb-2x8gb-ddr5-5200.jpg
+corsair-vengeance-32gb-2x16gb-ddr5-5600.jpg
+g.skill-trident-z5-32gb-2x16gb-ddr5-6000.jpg
+
+============================================
+GPU (8 slika) -> mapa: gpu/
+============================================
+nvidia-geforce-gtx-1650.jpg
+amd-radeon-rx-6500-xt.jpg
+nvidia-geforce-rtx-3060.jpg
+amd-radeon-rx-6650-xt.jpg
+nvidia-geforce-rtx-4060.jpg
+amd-radeon-rx-7600.jpg
+nvidia-geforce-rtx-4070.jpg
+amd-radeon-rx-7800-xt.jpg
+
+============================================
+STORAGE (6 slika) -> mapa: storage/
+============================================
+kingston-nv2-500gb-nvme.jpg
+samsung-980-500gb-nvme.jpg
+wd-blue-sn570-1tb-nvme.jpg
+samsung-970-evo-plus-1tb.jpg
+seagate-barracuda-2tb-hdd.jpg
+wd-black-sn850x-1tb-nvme.jpg
+
+============================================
+PSU (6 slika) -> mapa: psu/
+============================================
+be-quiet-system-power-10-450w.jpg
+corsair-cv550-550w.jpg
+evga-600-bq-600w.jpg
+be-quiet-pure-power-11-650w.jpg
+corsair-rm750-750w.jpg
+seasonic-focus-gx-850-850w.jpg
+
+============================================
+CASE (6 slika) -> mapa: case/
+============================================
+aerocool-cylon-mini.jpg
+deepcool-matrexx-40.jpg
+nzxt-h510.jpg
+corsair-4000d-airflow.jpg
+fractal-design-pop-air.jpg
+lian-li-lancool-ii-mesh.jpg
+
+============================================
+UKUPNO: 49 slika
+============================================
+
+Nakon što dodaš sve slike, pokreni:
+php artisan db:seed --class=PcComponentImagesSeeder
+
+To će automatski ažurirati putanje slika u bazi podataka.
